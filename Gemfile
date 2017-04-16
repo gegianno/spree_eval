@@ -37,6 +37,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spree', '~> 3.1.0.rc1'
 gem 'spree_auth_devise', '~> 3.1.0.rc1'
 gem 'spree_gateway', '~> 3.1.0.rc1'
+#gem 'spree_stock_report', path: '../spree_stock_report'
+gem 'spree_stock_report', github: 'gegianno/spree_stock_report'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

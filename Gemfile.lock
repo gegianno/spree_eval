@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/gegianno/spree_stock_report.git
+  revision: ad879bad51311533b483761ddc07c49537beb87a
+  specs:
+    spree_stock_report (3.1.5)
+      spree_core (~> 3.1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -327,6 +334,7 @@ DEPENDENCIES
   spree (~> 3.1.0.rc1)
   spree_auth_devise (~> 3.1.0.rc1)
   spree_gateway (~> 3.1.0.rc1)
+  spree_stock_report!
   spring
   sqlite3
   turbolinks
